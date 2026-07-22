@@ -70,9 +70,12 @@ TIA Portal V21 was used to design and compile the PLC's ladder logic and HMI. Si
 
 **Files:** see [`/digital-twin-integration`](./digital-twin-integration)
 
-## Live Demonstration
+## 🎥 Live Demonstration
 
-🎥 **Demo Video:** [Watch the live demonstration](./Final%20Video-compressed.mov)
+Click the thumbnail below to watch the complete project demonstration.
+
+[![Smart Conveyor Sorting Station Demo](https://img.youtube.com/vi/8IXcYModAtw/maxresdefault.jpg)](https://youtu.be/8IXcYModAtw)
+
 
 **Data captured over time:**
 
