@@ -70,7 +70,9 @@ TIA Portal V21 was used to design and compile the PLC's ladder logic and HMI. Si
 
 **Files:** see [`/digital-twin-integration`](./digital-twin-integration)
 
-**Live demo video:** [link here, or see uploaded file above]
+## Live Demonstration
+
+🎥 **Demo Video:** [Watch the live demonstration](./Final%20Video-compressed.mov)
 
 **Data captured over time:**
 
