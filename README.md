@@ -60,3 +60,18 @@ Whichever request is active fires the matching gate, and each gate activation in
 - I also learned the practical difference between timers and counters:
   - **Timers** measure how long a condition remains true (used for gate hold-open time).
   - **Counters** measure how many times an event occurs (used for tracking sorted objects).
+
+
+## Digital Twin Integration (Stage 3)
+
+TIA Portal V21 was used to design and compile the PLC's ladder logic and HMI. Since live PLCSIM/hardware access wasn't available in this environment, a Python digital twin reproduces the same control logic — same decision rules, same E-stop override behavior — and publishes live data over a real OPC UA server. A separate logger client then connects and records that data, demonstrating the full integration pipeline exactly as it would run against a live PLC.
+
+**Pipeline:** `digital_twin.py` (logic) → `twin_server.py` (OPC UA server) → a standard OPC UA client (live viewer) → `logger.py` (records to CSV)
+
+**Files:** see [`/digital-twin-integration`](./digital-twin-integration)
+
+**Live demo video:** [link here, or see uploaded file above]
+
+**Data captured over time:**
+
+![Sort counts chart](./digital-twin-integration/sort_counts_chart.png)
